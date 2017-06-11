@@ -1,0 +1,40 @@
+{
+  "name": "spa",
+  "version": "0.0.1",
+  "description": "spa",
+  "main": "app/spa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config mywebpack.config.js",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lujinjia/SPADemo.git"
+  },
+  "keywords": [
+    "spa"
+  ],
+  "author": "Jim Loo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lujinjia/SPADemo/issues"
+  },
+  "homepage": "https://github.com/lujinjia/SPADemo#readme",
+  "dependencies": {
+    "eslint-loader": "^1.7.1",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "eslint": "^3.19.0",
+    "html-webpack-plugin": "^2.28.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
